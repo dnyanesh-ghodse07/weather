@@ -1,0 +1,10 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.loading p {
+  color: royalblue;
+  font-size: 30px;
+}

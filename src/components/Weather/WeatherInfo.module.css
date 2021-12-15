@@ -1,0 +1,28 @@
+.weatherInfo {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 20px 0;
+  color: black;
+  background: rgb(228, 228, 228);
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+@media (max-width: 728px) {
+  .weatherInfo {
+    flex-direction: column;
+  }
+}
+.icon {
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.icon span {
+  font-weight: 600;
+  color: rgb(42, 88, 90);
+}
